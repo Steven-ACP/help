@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Jokes</title>
+
+    <!--second thing -->
+    <h1>Color Words</h1>
+    <p>Red</p>
+    <p>Blue</p>
+    <p>Green</p>
+    <p>Yellow</p>
+    <!-- end of second thing-->
+
+    <script>
+        //second thing
+        const paragraphs = document.getElementsByTagName("p");
+        console.log(paragraphs.length);
+        paragraphs[1].style.color = "gold";
+        paragraphs[1].textContent = "Gold";
+        console.log(paragraphs[1]);
+        console.log(paragraphs[0]);
+        const rainbowWords = document.getElementsByTagName("h1");
+        rainbowWords[0].textContent = "Rainbow Words";
+        //end of second thing
+    </script>

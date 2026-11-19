@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>shelf thing
+
+    </title>
+    <!--third thing-->
+    <h2 id="shelfTitle">Store Shelf</h2>
+    <p class="product">Notebook</p>
+    <p class="product featured">Backpack</p>
+    <p class="product">Pencil Case</p>
+    <p class="product featured">Water Bottle</p>
+    <!--end of third thing-->
+    <script>
+        //third thing
+        let products = document.getElementsByClassName("product");
+        let firstFeatured = document.querySelector(".featured");
+        let allFeatured = document.querySelectorAll(".featured");
+        console.log(products.length);
+        console.log(allFeatured.length);
+        firstFeatured.style.backgroundColor = "yellow";
+        allFeatured[1].style.backgroundColor = "orange";
+        products[0].textContent = "Sold Out";
+        console.log(firstFeatured.textContent);
+        //end of third thing
+    </script>

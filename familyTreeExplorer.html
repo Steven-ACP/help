@@ -1,0 +1,28 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Halloween Jokes</title>
+
+    <div id="grandparent">
+        <div id="parent">
+            <p id="child">I am the child</p>
+        </div>
+    </div>
+
+    <script>
+        let children = document.getElementById("child").parentElement;
+        console.log(children.id);
+        let parant = document.getElementById("parent").parentElement;
+        console.log(parant.id);
+        let grandP = document.getElementById("grandparent").parentElement;
+        console.log(grandP.id);
+        parant.style.backgroundColor = "lightblue";
+        grandP.style.backgroundColor = "lightgreen";
+        console.log(child.parentElement.parentElement.id);
+        children.textContent = "One Box"
+
+
+
+    </script>
